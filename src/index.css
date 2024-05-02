@@ -184,7 +184,7 @@ p {
 }
 
 .hero_section {
-  background-image: url("./assets/heroBackground.png");
+  background-image: url("assets/heroBackground.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
