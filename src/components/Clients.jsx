@@ -2,11 +2,11 @@ import React from 'react'
 
 function Clients() {
     return (
-        <section className="logo_carousel_wapper default-padding bg-primary-500">
+        <section className="logo_carousel_wapper default-padding bg-black">
             <div className="text-center">
                 <h6 className="subtitle text-center">our Clients</h6>
             </div>
-            <div class="logo_carousel">
+            <div className="logo_carousel">
                 <img src="assets/logo/ups-logo-01-1.webp" />
                 <img src="assets/logo/website-logo-of_CSG.webp" />
                 <img src="assets/logo/website-logo-of_RS.webp" />

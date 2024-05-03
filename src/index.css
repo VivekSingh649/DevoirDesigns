@@ -23,10 +23,9 @@ svg {
 }
 
 :root {
-  --primary: #246bfd;
+  --primary: #b91002;
   --paragraph: #737588;
   --FFF: #ffff;
-  --main-color2: #ee0020;
   --heading-color: #101a29;
   --body-font-size: 16px;
   --line-height30: 1.7;
@@ -184,7 +183,7 @@ p {
 }
 
 .hero_section {
-  background-image: url("heroBackground.png");
+  background-image: url("assets/941.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -222,12 +221,34 @@ p {
   padding-left: 9%;
 
   .banner-animate-img-1 {
+    background-color: var(--FFF);
+    padding: 20px;
+    border-radius: 10px;
     left: -100px;
-    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    row-gap: 5px;
   }
   .banner-animate-img-2 {
-    bottom: -68px;
+    background-color: var(--FFF);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 10px;
+    bottom: 0px;
     right: -9px;
+    z-index: 1;
+
+    span {
+      font-size: 40px;
+      color: var(--primary);
+      font-weight: 700;
+    }
   }
   .main-img {
     border-radius: 300px 300px 0 0;
@@ -290,12 +311,12 @@ p {
       border-radius: 5px 40px 40px 40px;
       width: 80px;
       height: 80px;
-      background-color: #eef5ff;
+      background-color: #ffdfdc;
       margin-bottom: 15px;
       transition: all 250ms ease;
       i {
         font-size: 30px;
-        color: #5a9bff;
+        color: var(--primary);
         transition: all 250ms ease;
       }
     }
@@ -376,7 +397,7 @@ p {
 .service-card {
   padding: 40px;
   border-radius: 25px;
-  box-shadow: 0px 12px 42px rgb(36, 107, 253, 0.1);
+  box-shadow: 0px 12px 42px rgb(185, 16, 2, 0.1);
   background-color: var(--FFF);
 
   .icon_wrapper {
@@ -385,7 +406,7 @@ p {
     margin-bottom: 15px;
 
     .icon {
-      max-width: 80px;
+      max-width: 70px;
     }
     h3 {
       max-width: 160px;
@@ -441,12 +462,12 @@ p {
   .icon {
     width: 80px;
     height: 80px;
-    background-color: #eef5ff;
+    background-color: #fff1f0;
     border-radius: 50%;
     display: grid;
     place-content: center;
     i {
-      font-size: 25px;
+      font-size: 30px;
       color: var(--primary);
     }
   }
@@ -480,9 +501,83 @@ p {
       padding: 12.5px 25px;
       background-color: var(--FFF);
       outline: 0;
+      border: 1px solid var(--paragraph);
+
+      &:focus {
+        outline: 0 !important;
+        border-color: var(--primary) !important;
+      }
     }
     &:last-child {
       margin-bottom: 0;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar_container {
+    padding: 0;
+    width: 100%;
+
+    .navbar-area {
+      margin: 0;
+      padding: 10px 20px;
+      .main_menu {
+        li {
+          a {
+            &.active {
+              background-color: var(--primary);
+              color: var(--FFF);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .hero_section {
+    padding-top: 200px;
+    text-align: center;
+    .title {
+      font-size: 40px;
+    }
+    .banner-animate-img-1 {
+      right: 0;
+      left: auto;
+      z-index: 10;
+    }
+    .banner-animate-img-2 {
+      bottom: -50px;
+      right: auto;
+      left: 0;
+    }
+  }
+  .title,
+  .subtitle {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    margin-bottom: 15px;
+    display: table;
+    margin: auto;
+  }
+  .main_btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .contact_form {
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+  .default-padding {
+    padding-top: 45px;
+    padding-bottom: 45px;
   }
 }

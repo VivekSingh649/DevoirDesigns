@@ -22,14 +22,14 @@ function AboutUs() {
                             <div className="flex flex-wrap">
                                 <div className="w-full md:w-1/2 px-4">
                                     <div className="about_icon">
-                                        <div className="icon"><i class="bi bi-motherboard"></i></div>
+                                        <div className="icon"><i className="bi bi-motherboard"></i></div>
                                         <h3>Our Ambition</h3>
                                         <p>Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi designer is our country.</p>
                                     </div>
                                 </div>
                                 <div className="w-full md:w-1/2 px-4">
                                     <div className="about_icon">
-                                        <div className="icon"><i class="bi bi-motherboard"></i></div>
+                                        <div className="icon"><i className="bi bi-motherboard"></i></div>
                                         <h3>Our Ambition</h3>
                                         <p>Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi designer is our country.</p>
                                     </div>
