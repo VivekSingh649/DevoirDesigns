@@ -506,6 +506,7 @@ p {
       &:focus {
         outline: 0 !important;
         border-color: var(--primary) !important;
+        box-shadow: none !important;
       }
     }
     &:last-child {
@@ -579,5 +580,48 @@ p {
   .default-padding {
     padding-top: 45px;
     padding-bottom: 45px;
+  }
+}
+
+.custom_list {
+  margin-top: 20px;
+  li {
+    margin-bottom: 10px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    border-bottom: 2px solid #e2e8f0;
+    position: relative;
+    max-width: 350px;
+
+    &::after {
+      position: absolute;
+      content: "\F270";
+      top: 0;
+      left: 0;
+      color: var(--primary);
+      font-size: 20px;
+      font-family: "bootstrap-icons";
+    }
+  }
+  &.style_2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+    li {
+      border-radius: 5px;
+      border: 0;
+      background-color: #ffdfdc;
+      padding: 10px 24px;
+      color: var(--heading-color);
+      font-weight: 500;
+      padding-left: 30px;
+      margin-bottom: 10px;
+      &::after {
+        top: 7.5px;
+        left: 5px;
+      }
+    }
   }
 }
