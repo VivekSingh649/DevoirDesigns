@@ -1,14 +1,16 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function ContactFrom() {
-  const [result, setResult] = React.useState("");
+  const [result, setResult] = useState("");
+  const navigate = useNavigate();
 
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "0e3b0dc5-2ac8-461d-84df-6d460e5827db");
+    formData.append("access_key", "239f16c3-66b8-4d0a-87ec-17041c56b689");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -20,18 +22,18 @@ function ContactFrom() {
     if (data.success) {
       setResult("Form Submitted Successfully");
       event.target.reset();
+      navigate("/thank-you");
     } else {
       console.log("Error", data);
       setResult(data.message);
     }
-
     setTimeout(() => {
       setResult("");
-    }, 2500);
+    }, 500);
   };
 
   return (
-    <section className="default-padding" id="Contact-us">
+    <section className="default-padding bg-gray-50" id="Contact-us">
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container mx-auto">
           <div className="flex flex-wrap justify-center md:justify-between">
@@ -92,7 +94,17 @@ function ContactFrom() {
             >
               <div className="contact_form bg-primary-50 rounded-3xl">
                 <h1>Write A Message</h1>
-                <form action="" onSubmit={onSubmit} method="GET">
+                <form action="" onSubmit={onSubmit}>
+                  <input
+                    type="hidden"
+                    name="from_name"
+                    value="Devoir Designs"
+                  />
+                  <input
+                    type="hidden"
+                    name="subject"
+                    value="New Submission from Devoir Designs landing page"
+                  />
                   <div className="input_wrapper">
                     <input
                       type="text"

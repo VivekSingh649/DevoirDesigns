@@ -29,6 +29,21 @@ function Services() {
               description="We elevate your brand through successful marketing strategies that satisfy the needs of an ever-changing digital world."
               svg="assets/marketing.svg"
             />
+            <IconBox1
+              title="social media management"
+              description="Social media management involves the administration, monitoring, and optimization of a brand's presence on various social media platforms."
+              svg="assets/social-media.svg"
+            />
+            <IconBox1
+              title="web design and development"
+              description="Transforming visions into digital realities, our website design and development services craft intuitive user experiences and visually stunning interfaces to captivate and engage audiences."
+              svg="assets/web-programming.svg"
+            />
+            <IconBox1
+              title="search engine optimization"
+              description="Transforming visions into digital realities, our website design and development services craft intuitive user experiences and visually stunning interfaces to captivate and engage audiences."
+              svg="assets/seo (1).svg"
+            />
           </div>
         </div>
       </div>

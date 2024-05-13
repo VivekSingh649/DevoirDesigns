@@ -2,12 +2,10 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import the AOS styles
 import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
-import AboutUs from "./components/AboutUs";
-import Clients from "./components/Clients";
-import Services from "./components/Services";
-import ContactFrom from "./components/ContactFrom";
 import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import ThankYou from "./pages/ThankYou";
 
 const App = () => {
   useEffect(() => {
@@ -22,11 +20,10 @@ const App = () => {
   return (
     <>
       <Header />
-      <HeroSection />
-      <AboutUs />
-      <Clients />
-      <Services />
-      <ContactFrom />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/thank-you" element={<ThankYou />} />
+      </Routes>
       <Footer />
     </>
   );
