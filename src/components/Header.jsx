@@ -24,7 +24,6 @@ function Header() {
 
   const handleClick = (idx) => {
     setIsActive(idx);
-    console.log(isActive);
   };
 
   return (

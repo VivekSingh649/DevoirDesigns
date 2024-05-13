@@ -10,7 +10,7 @@ function ContactFrom() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "239f16c3-66b8-4d0a-87ec-17041c56b689");
+    formData.append("access_key", "d388160f-a445-4afd-86b8-0ff273750296");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -110,7 +110,6 @@ function ContactFrom() {
                       type="text"
                       name="name"
                       placeholder="Enter Your Name"
-                      required
                     />
                   </div>
                   <div className="input_wrapper">
@@ -140,7 +139,7 @@ function ContactFrom() {
                   <div className="input_wrapper">
                     <button
                       type="submit"
-                      className="main_btn aos-init aos-animate"
+                      className="main_btn aos-init aos-animate w-full"
                       data-aos="fade-right"
                       data-aos-delay="300"
                       data-aos-duration="1500"

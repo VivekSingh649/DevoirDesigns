@@ -41,7 +41,7 @@ function Services() {
             />
             <IconBox1
               title="search engine optimization"
-              description="Transforming visions into digital realities, our website design and development services craft intuitive user experiences and visually stunning interfaces to captivate and engage audiences."
+              description="From keyword optimization to content creation and technical SEO, our team employs a holistic approach to ensure your brand stands out."
               svg="assets/seo (1).svg"
             />
           </div>
