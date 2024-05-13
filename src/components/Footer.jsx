@@ -1,8 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <footer className="text-white body-font bg-black">
+      <div className="fixed z-50 bottom-[20px] right-[20px]">
+        <Link to="https://wa.me/9810416275" target="_blank">
+          <img
+            src="assets/whatsapp.svg"
+            alt=""
+            className=" max-w-10 drop-shadow-lg"
+          />
+        </Link>
+      </div>
       <div className="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
           <img

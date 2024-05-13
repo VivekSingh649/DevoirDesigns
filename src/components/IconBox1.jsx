@@ -8,7 +8,7 @@ function IconBox1(props) {
           <img src={props.svg} alt={props.title} />
         </div>
         <div className="icon_tittle">
-          <h3 className="uppercase">{props.title}</h3>
+          <h3 className="uppercase text-xl md:text-2xl">{props.title}</h3>
         </div>
       </div>
       <div className="icon_content">

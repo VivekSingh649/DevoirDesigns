@@ -31,7 +31,7 @@ function AboutUs() {
             </div>
           </div>
           <div
-            className="w-full lg:w-1/2 px-2 self-center"
+            className="w-full lg:w-1/2 px-2 self-center mt-6 md:mt-0"
             data-aos="fade-left"
             data-aos-delay="100"
             data-aos-duration="1500"

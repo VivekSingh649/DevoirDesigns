@@ -44,7 +44,7 @@ function HeroSection() {
               </p>
               <a
                 className="main_btn add_outline"
-                href="#Service"
+                href="#Contact-us"
                 data-aos="fade-right"
                 data-aos-delay="300"
                 data-aos-duration="1500"

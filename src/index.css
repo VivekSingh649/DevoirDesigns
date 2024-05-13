@@ -416,7 +416,7 @@ p {
       color: var(--heading-color);
       line-height: 1.5;
       font-weight: 600;
-      font-size: 25px;
+      /* font-size: 25px; */
       color: var(--heading-color);
     }
   }
@@ -561,7 +561,7 @@ p {
   }
 
   .title {
-    font-size: 30px;
+    font-size: 26px;
   }
 
   .subtitle {
@@ -582,6 +582,18 @@ p {
   .default-padding {
     padding-top: 45px;
     padding-bottom: 45px;
+  }
+  .service-card {
+    text-align: center;
+    .icon_wrapper {
+      flex-direction: column;
+    }
+    .icon {
+      margin-bottom: 15px;
+    }
+    h3 {
+      margin-left: 0 !important;
+    }
   }
 }
 

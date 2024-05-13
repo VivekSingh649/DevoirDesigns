@@ -38,7 +38,7 @@ function ContactFrom() {
         <div className="container mx-auto">
           <div className="flex flex-wrap justify-center md:justify-between">
             <div
-              className="w-full md:w-6/12 lg:w-7/12 self-center"
+              className="w-full md:w-6/12 lg:w-7/12 self-center order-2 md:order-1"
               data-aos="fade-right"
               data-aos-delay="100"
               data-aos-duration="900"
@@ -87,7 +87,7 @@ function ContactFrom() {
               </div>
             </div>
             <div
-              className="w-full md:w-6/12 lg:w-4/12 md:mt-0 mt-6"
+              className="w-full md:w-6/12 lg:w-4/12 md:mt-0 mt-6 order-1 md:order-2 mb-5 md:mb-0"
               data-aos="fade-left"
               data-aos-delay="100"
               data-aos-duration="9i00"
