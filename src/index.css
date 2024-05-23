@@ -691,3 +691,50 @@ p {
     }
   }
 }
+
+.gradient_box {
+  overflow: hidden;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: all 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-repeat: repeat-x;
+    border-radius: 15px;
+    background-image: -webkit-linear-gradient(
+      51deg,
+      var(--e-global-color-astglobalcolor0) 0%,
+      var(--e-global-color-dd431d3) 100%
+    );
+    background-image: -o-linear-gradient(
+      51deg,
+      var(--e-global-color-astglobalcolor0) 0%,
+      var(--e-global-color-dd431d3) 100%
+    );
+    background-image: linear-gradient(
+      39deg,
+      var(--e-global-color-astglobalcolor0) 0%,
+      var(--e-global-color-dd431d3) 100%
+    );
+  }
+  &:hover {
+    .elementor-icon {
+      background-color: var(--e-global-color-astglobalcolor5);
+      fill: var(--e-global-color-astglobalcolor0);
+      color: var(--e-global-color-astglobalcolor0);
+    }
+    .elementor-icon-box-title,
+    p {
+      color: var(--e-global-color-astglobalcolor5) !important;
+    }
+    &::after {
+      opacity: 1;
+    }
+  }
+}
