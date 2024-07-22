@@ -5,6 +5,7 @@ import Clients from "../components/Clients";
 import Services from "../components/Services";
 import Testimonials from "../components/Testimonials";
 import ContactFrom from "../components/ContactFrom";
+import Portfolio from "../components/Portfolio";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <HeroSection />
       <Services />
       <Clients />
+      <Portfolio />
       <AboutUs />
       <Testimonials />
       <ContactFrom />

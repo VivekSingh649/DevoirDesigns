@@ -110,6 +110,7 @@ function ContactFrom() {
                       type="text"
                       name="name"
                       placeholder="Enter Your Name"
+                      required
                     />
                   </div>
                   <div className="input_wrapper">

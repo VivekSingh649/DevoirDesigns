@@ -3,6 +3,7 @@ import React from "react";
 function HeroSection() {
   return (
     <section className="hero_section">
+      <img src="\assets\941.png" alt="" className="banner_image" />
       <img
         className="banner-animate-img animate-img-1 top_image_bounce"
         src="assets/elements_dots.svg"
@@ -49,7 +50,7 @@ function HeroSection() {
                 data-aos-delay="300"
                 data-aos-duration="1500"
               >
-                Discover More
+                Grow Your Business
                 <i className="bi bi-arrow-right"></i>
               </a>
             </div>
