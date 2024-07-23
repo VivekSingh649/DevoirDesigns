@@ -22,7 +22,7 @@ function Reviews({ userImage = "assets/user (1).svg", userName, userReview }) {
           <h2 className="text-xl capitalize">{userName}</h2>
         </div>
       </div>
-      <p className="">{userReview}</p>
+      <p>{userReview}</p>
     </div>
   );
 }

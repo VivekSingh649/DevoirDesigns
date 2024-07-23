@@ -9,7 +9,7 @@ function ProjectCard({ fitsImage, secondImage, link, projectName }) {
       </a>
       <div className="portfolio_title py-3 px-4">
         <h2 className="text-xl">{projectName}</h2>
-        <i class="text-2xl bi bi-arrow-up-right-circle-fill"></i>
+        <i className="text-2xl bi bi-arrow-up-right-circle-fill"></i>
       </div>
     </div>
   );

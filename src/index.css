@@ -785,12 +785,12 @@ p {
       img {
         opacity: 0;
         visibility: hidden;
-        animation: fadeOut 400ms linear;
+        animation: fadeOut 500ms 7s cubic-bezier(0.215, 0.61, 0.355, 1);
 
         &:first-child {
           opacity: 1;
           visibility: visible;
-          animation: fadeIn 400ms linear;
+          animation: fadeIn 500ms 7s cubic-bezier(0.215, 0.61, 0.355, 1);
         }
       }
     }

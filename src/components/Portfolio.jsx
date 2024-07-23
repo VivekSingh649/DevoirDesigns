@@ -16,36 +16,22 @@ function Portfolio() {
       link: "https://oneiroeducation.com/",
     },
     {
-      projectName: "Oneiro",
-      firstImage:
-        "https://i0.wp.com/portfolio.devoirdesigns.com/wp-content/uploads/2024/05/dd-post_oneiro-1-1.png?resize=1536%2C1536&ssl=1",
-      secondImage:
-        "https://i0.wp.com/portfolio.devoirdesigns.com/wp-content/uploads/2024/05/onerio.jpg?fit=1440%2C1440&ssl=1",
-      link: "https://oneiroeducation.com/",
+      projectName: "Resolve Right",
+      firstImage: "/assets/resolve-right (1).jpg",
+      secondImage: "/assets/resolve-right (2).jpg",
+      link: "https://www.instagram.com/resolverights/",
     },
     {
       projectName: "Oneiro",
-      firstImage:
-        "https://i0.wp.com/portfolio.devoirdesigns.com/wp-content/uploads/2024/05/dd-post_oneiro-1-1.png?resize=1536%2C1536&ssl=1",
-      secondImage:
-        "https://i0.wp.com/portfolio.devoirdesigns.com/wp-content/uploads/2024/05/onerio.jpg?fit=1440%2C1440&ssl=1",
-      link: "https://oneiroeducation.com/",
+      firstImage: "/assets/green-earth (2).jpg",
+      secondImage: "/assets/green-earth (1).jpg",
+      link: "https://www.instagram.com/greenearth.au/",
     },
     {
       projectName: "Oneiro",
-      firstImage:
-        "https://i0.wp.com/portfolio.devoirdesigns.com/wp-content/uploads/2024/05/dd-post_oneiro-1-1.png?resize=1536%2C1536&ssl=1",
-      secondImage:
-        "https://i0.wp.com/portfolio.devoirdesigns.com/wp-content/uploads/2024/05/onerio.jpg?fit=1440%2C1440&ssl=1",
-      link: "https://oneiroeducation.com/",
-    },
-    {
-      projectName: "Oneiro",
-      firstImage:
-        "https://i0.wp.com/portfolio.devoirdesigns.com/wp-content/uploads/2024/05/dd-post_oneiro-1-1.png?resize=1536%2C1536&ssl=1",
-      secondImage:
-        "https://i0.wp.com/portfolio.devoirdesigns.com/wp-content/uploads/2024/05/onerio.jpg?fit=1440%2C1440&ssl=1",
-      link: "https://oneiroeducation.com/",
+      firstImage: "/assets/hop.png",
+      secondImage: "/assets/hop 2.jpg",
+      link: "https://www.instagram.com/hopovertales/",
     },
   ];
 

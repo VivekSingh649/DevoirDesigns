@@ -21,6 +21,10 @@ function Header() {
       link: "#Contact-us",
       menuText: "Contact us",
     },
+    {
+      link: "https://portfolio.devoirdesigns.com/",
+      menuText: "Portfolio",
+    },
   ];
 
   const handleClick = (idx) => {
