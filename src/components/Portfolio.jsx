@@ -45,6 +45,30 @@ function Portfolio() {
       secondImage: "/assets/liveeye 1.jpg",
       link: "https://www.instagram.com/liveeye.inc/",
     },
+    {
+      projectName: "Michael Angelo",
+      firstImage: "/assets/ma-1.jpg",
+      secondImage: "/assets/ma-2.jpeg",
+      link: "https://www.instagram.com/michaelangelo.shoes/",
+    },
+    {
+      projectName: "Solesteps",
+      firstImage: "/assets/sole-1.jpg",
+      secondImage: "/assets/sole-2.jpg",
+      link: "https://www.instagram.com/solesteps.official/",
+    },
+    {
+      projectName: "Hartansh",
+      firstImage: "/assets/hartansh-1.jpg",
+      secondImage: "/assets/hartansh-2.jpg",
+      link: "https://www.instagram.com/hartansh.official/",
+    },
+    {
+      projectName: "Deepmala Sarees",
+      secondImage: "/assets/deep-1 (1).jpg",
+      firstImage: "/assets/deep-1 (2).jpg",
+      link: "https://www.instagram.com/deepmalasarees/",
+    },
   ];
 
   return (
