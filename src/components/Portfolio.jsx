@@ -17,21 +17,33 @@ function Portfolio() {
     },
     {
       projectName: "Resolve Right",
-      firstImage: "/assets/resolve-right (1).jpg",
-      secondImage: "/assets/resolve-right (2).jpg",
+      firstImage: "/assets/resolve-right (2).jpg",
+      secondImage: "/assets/resolve-right (1).jpg",
       link: "https://www.instagram.com/resolverights/",
     },
     {
-      projectName: "Oneiro",
-      firstImage: "/assets/green-earth (2).jpg",
-      secondImage: "/assets/green-earth (1).jpg",
+      projectName: "Green Earth",
+      firstImage: "/assets/green-earth (1).jpg",
+      secondImage: "/assets/green-earth (2).jpg",
       link: "https://www.instagram.com/greenearth.au/",
     },
     {
-      projectName: "Oneiro",
-      firstImage: "/assets/hop.png",
-      secondImage: "/assets/hop 2.jpg",
-      link: "https://www.instagram.com/hopovertales/",
+      projectName: "Naviritih",
+      firstImage: "/assets/Naviritih.jpg",
+      secondImage: "/assets/Naviritih 2.png",
+      link: "https://www.instagram.com/navritih.in/",
+    },
+    {
+      projectName: "PCCS Logistics",
+      firstImage: "/assets/pccs (1).jpg",
+      secondImage: "/assets/pccs (2).jpg",
+      link: "https://www.instagram.com/pccslogistics/",
+    },
+    {
+      projectName: "Live Eye",
+      firstImage: "/assets/liveeye 2.jpg",
+      secondImage: "/assets/liveeye 1.jpg",
+      link: "https://www.instagram.com/liveeye.inc/",
     },
   ];
 
